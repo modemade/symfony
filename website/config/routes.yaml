@@ -1,0 +1,23 @@
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
+HelloCtrl:
+    path: /bonjour
+    controller : App\Controller\HelloCtrl::sayHello
+HelloCtrlName:
+    path: /bonjour/{name}
+    controller : App\Controller\HelloCtrl::sayHelloUtil
+TestController:
+    path: /test
+    controller : App\Controller\TestController::test
+TestControllerName:
+    path: /test/{test}
+    controller : App\Controller\TestController::nameTest
+RandomController:
+    path: /random
+    controller : App\Controller\RandomController::randomNumber

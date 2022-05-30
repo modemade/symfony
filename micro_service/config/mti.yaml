@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+HelloController:
+    path: /Bye
+    controller : App\Controller\MtiCtrl::sayBye
+HelloControllerName:
+    path: /bye/{name}
+    controller : App\Controller\MtiCtrl::sayByeUtil

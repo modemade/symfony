@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+NbrCtrl:
+    path: /Nbr
+    controller : App\Controller\NbrAleaCtrl::sayNbrAlea
+# MtiCtrlName:
+#     path: /bye/{name}
+#     controller : App\Controller\MtiCtrl::sayByeUtil
